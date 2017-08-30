@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.deeplearning4j:deeplearning4j-ui_2.10:0.9.1'
+}
+
+mainClassName = 'App'
+
